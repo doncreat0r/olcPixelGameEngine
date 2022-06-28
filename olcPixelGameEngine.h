@@ -195,7 +195,7 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2018, 2019, 2020, 2021, 2022
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2018, 2019, 2020, 2021, 2022
 */
 #pragma endregion
 
@@ -3525,7 +3525,7 @@ namespace olc
 			glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 		}
 
-		void SetDecalMode(const olc::DecalMode& mode)
+		virtual void SetDecalMode(const olc::DecalMode& mode) override
 		{
 			if (mode != nDecalMode)
 			{
